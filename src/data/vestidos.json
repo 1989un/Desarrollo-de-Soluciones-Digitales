@@ -1,0 +1,169 @@
+{
+  "vestidos": [
+    {
+      "id": 1,
+      "nombre": "Vestido elegante",
+      "precio": 89.9,
+      "imagen": "vestido-a.jpg",
+      "descripcion": "Vestido para ocasiones especiales",
+      "tablaTallas": [
+        {
+          "talla": "S",
+          "busto": 89,
+          "cintura": 71,
+          "cadera": 96
+        },
+        {
+          "talla": "M",
+          "busto": 95,
+          "cintura": 77,
+          "cadera": 102
+        },
+        {
+          "talla": "L",
+          "busto": 101,
+          "cintura": 83,
+          "cadera": 108
+        },
+        {
+          "talla": "XL",
+          "busto": 109,
+          "cintura": 91,
+          "cadera": 116
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Vestido floral",
+      "precio": 74.5,
+      "imagen": "vestido-b.jpg",
+      "descripcion": "Vestido ligero con estampado floral, ideal para salidas casuales",
+      "tablaTallas": [
+        {
+          "talla": "S",
+          "busto": 86,
+          "cintura": 68,
+          "cadera": 93
+        },
+        {
+          "talla": "M",
+          "busto": 92,
+          "cintura": 74,
+          "cadera": 99
+        },
+        {
+          "talla": "L",
+          "busto": 98,
+          "cintura": 80,
+          "cadera": 105
+        },
+        {
+          "talla": "XL",
+          "busto": 104,
+          "cintura": 86,
+          "cadera": 111
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Vestido casual",
+      "precio": 69.9,
+      "imagen": "vestido-c.jpg",
+      "descripcion": "Vestido cómodo para uso diario",
+      "tablaTallas": [
+        {
+          "talla": "S",
+          "busto": 88,
+          "cintura": 70,
+          "cadera": 95
+        },
+        {
+          "talla": "M",
+          "busto": 94,
+          "cintura": 76,
+          "cadera": 101
+        },
+        {
+          "talla": "L",
+          "busto": 100,
+          "cintura": 82,
+          "cadera": 107
+        },
+        {
+          "talla": "XL",
+          "busto": 106,
+          "cintura": 88,
+          "cadera": 113
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Vestido de fiesta",
+      "precio": 119.9,
+      "imagen": "vestido-d.jpg",
+      "descripcion": "Vestido largo para celebraciones y eventos especiales",
+      "tablaTallas": [
+        {
+          "talla": "S",
+          "busto": 90,
+          "cintura": 72,
+          "cadera": 97
+        },
+        {
+          "talla": "M",
+          "busto": 96,
+          "cintura": 78,
+          "cadera": 103
+        },
+        {
+          "talla": "L",
+          "busto": 102,
+          "cintura": 84,
+          "cadera": 109
+        },
+        {
+          "talla": "XL",
+          "busto": 110,
+          "cintura": 92,
+          "cadera": 117
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Vestido midi",
+      "precio": 95.0,
+      "imagen": "vestido-e.jpg",
+      "descripcion": "Vestido midi de corte clásico y estilo versátil",
+      "tablaTallas": [
+        {
+          "talla": "S",
+          "busto": 87,
+          "cintura": 69,
+          "cadera": 94
+        },
+        {
+          "talla": "M",
+          "busto": 93,
+          "cintura": 75,
+          "cadera": 100
+        },
+        {
+          "talla": "L",
+          "busto": 99,
+          "cintura": 81,
+          "cadera": 106
+        },
+        {
+          "talla": "XL",
+          "busto": 107,
+          "cintura": 89,
+          "cadera": 114
+        }
+      ]
+    }
+  ]
+}
