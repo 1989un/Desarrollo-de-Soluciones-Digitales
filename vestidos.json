@@ -1,0 +1,25 @@
+{
+  "vestidos": [
+    {
+      "id": 1,
+      "nombre": "Vestido elegante",
+      "precio": 89.90,
+      "imagen": "vestido-a.jpg",
+      "descripcion": "Vestido para ocasiones especiales",
+      "tablaTallas": [
+        {
+          "talla": "S",
+          "busto": 89,
+          "cintura": 71,
+          "cadera": 96
+        },
+        {
+          "talla": "M",
+          "busto": 95,
+          "cintura": 77,
+          "cadera": 102
+        }
+      ]
+    }
+  ]
+}
