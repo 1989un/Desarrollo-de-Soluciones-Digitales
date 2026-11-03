@@ -1,16 +1,20 @@
-# React + Vite
+# Desarrollo de Soluciones Digitales
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Repositorio de proyectos de desarrollo web orientados a crear soluciones digitales modernas, utilizando tecnologías actuales.
 
-Currently, two official plugins are available:
+## Tecnologías
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- JavaScript
+- Tailwind CSS
+- HTML5
+- CSS3
+- APIs REST
 
-## React Compiler
+## Proyectos
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### TallaJusta AI
 
-## Expanding the ESLint configuration
+Aplicación web desarrollada con React y Tailwind CSS, orientada a recomendar tallas de ropa a partir de las medidas corporales del usuario.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Tecnologías:** React, Vite, JavaScript y Tailwind CSS.
