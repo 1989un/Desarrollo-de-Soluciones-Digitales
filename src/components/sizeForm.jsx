@@ -1,7 +1,8 @@
 import { useState } from "react";
 import InputMedida from "./InputMedida";
 
-function sizeForm() {
+
+function sizeForm({vestidoSeleccionado }) {
   const [altura, setAltura] = useState("");
   const [busto, setBusto] = useState("");
   const [cintura, setCintura] = useState("");
@@ -9,6 +10,7 @@ function sizeForm() {
 
   const[tallaRecomendada,setTallaRecomendada]=useState("");
   const[error,setError]=useState("");
+
 
   const camposMedidas = [
   {
@@ -53,12 +55,9 @@ function sizeForm() {
   },
 ];
 
-const tablaTallas = [
-  { talla: "S", busto: 89, cintura: 71, cadera: 96 },
-  { talla: "M", busto: 95, cintura: 77, cadera: 102 },
-  { talla: "L", busto: 101, cintura: 83, cadera: 108 },
-  { talla: "XL", busto: 109, cintura: 91, cadera: 116 },
-];
+
+const tablaTallas = vestidoSeleccionado.tablaTallas;
+{/*console.log("Tabla de tallas:", tablaTallas);*/}
 
 const [mensajeAltura, setMensajeAltura] = useState("");
 
@@ -128,8 +127,8 @@ function calcularTalla(){
 
 
   return (
-    <section className="mx-auto max-w-xl rounded-2xl bg-white p-8 shadow-lg">
-      <h2 className="text-2xl font-bold text-purple-700">
+    <section >
+      <h2 className="text-1xl font-bold text-purple-700">
         Descubre tu talla ideal
       </h2>
 
@@ -144,7 +143,7 @@ function calcularTalla(){
   }}
 >
          {/* Generamos los cuatro campos con map */}
-        <div className="space-y-4">
+         <div className="grid grid-cols-2 gap-4 my-4">
           {camposMedidas.map((campo) => (
             <InputMedida
               key={campo.nombre}
@@ -153,12 +152,14 @@ function calcularTalla(){
               onChange={campo.onChange}
               placeholder={campo.placeholder}
             />
-          ))}
-        </div>
+          ))
+          }
+           </div>
+        
 
         <button 
           type="submit"
-          className="mt-2 mb-2 w-full rounded-lg bg-purple-600 px-6 py-3 font-semibold text-white hover:bg-purple-700"
+          className="mb-2 w-full rounded-lg bg-purple-600 px-6 py-3 font-semibold text-white hover:bg-purple-700"
         >
           Calcular mi talla
         </button>
@@ -173,7 +174,7 @@ function calcularTalla(){
          {/* Resultado de la talla */}
         {
           tallaRecomendada && (
-             <div className="mt-6 rounded-xl border border-purple-200 bg-purple-50 p-6 text-center">
+             <div className="rounded-xl border border-purple-200 bg-purple-50 p-4 text-center">
               <p className="text-gray-600">
                 Tu talla recomendada es:
               </p>

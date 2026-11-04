@@ -4,7 +4,8 @@
       "id": 1,
       "nombre": "Vestido elegante",
       "precio": 89.9,
-      "imagen": "vestido-a.jpg",
+     
+      "imagen": "/vestidos/vestido-a.png",
       "descripcion": "Vestido para ocasiones especiales",
       "tablaTallas": [
         {
@@ -37,7 +38,7 @@
       "id": 2,
       "nombre": "Vestido floral",
       "precio": 74.5,
-      "imagen": "vestido-b.jpg",
+      "imagen": "/vestidos/vestido-b.png",
       "descripcion": "Vestido ligero con estampado floral, ideal para salidas casuales",
       "tablaTallas": [
         {
@@ -70,7 +71,7 @@
       "id": 3,
       "nombre": "Vestido casual",
       "precio": 69.9,
-      "imagen": "vestido-c.jpg",
+      "imagen": "/vestidos/vestido-c.png",
       "descripcion": "Vestido cómodo para uso diario",
       "tablaTallas": [
         {
@@ -103,7 +104,7 @@
       "id": 4,
       "nombre": "Vestido de fiesta",
       "precio": 119.9,
-      "imagen": "vestido-d.jpg",
+      "imagen": "/vestidos/vestido-d.png",
       "descripcion": "Vestido largo para celebraciones y eventos especiales",
       "tablaTallas": [
         {
@@ -136,7 +137,7 @@
       "id": 5,
       "nombre": "Vestido midi",
       "precio": 95.0,
-      "imagen": "vestido-e.jpg",
+      "imagen": "/vestidos/vestido-e.png",
       "descripcion": "Vestido midi de corte clásico y estilo versátil",
       "tablaTallas": [
         {

@@ -6,13 +6,13 @@ function hero({onDescubrirTalla}){
             </h2>
 
             <p className="mt-6 max-w-xl text-lg text-gray-600">
-                Descubre prendas que se ajustan a tu cuerpo.
-                Nuestra tecnología te ayuda a elegir la talla perfecta.
+                Elige tu vestido y descubre cuales  se ajustan a tu cuerpo. Nuestra tecnología te ayuda a elegir la 
+                talla perfecta.
             </p>
 
-            <button onClick={onDescubrirTalla} className="mt-8 rounded-lg bg-purple-600 px-8 py-3 font-semibold text-white hover:bg-purple-700">
+           {/*<button onClick={onDescubrirTalla} className="mt-8 rounded-lg bg-purple-600 px-8 py-3 font-semibold text-white hover:bg-purple-700">
                 Descubrir mi talla
-            </button>
+            </button>*/}
         </main>
     );
 }
