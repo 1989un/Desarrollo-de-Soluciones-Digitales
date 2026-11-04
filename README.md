@@ -2,19 +2,9 @@
 
 Repositorio de proyectos de desarrollo web orientados a crear soluciones digitales modernas, utilizando tecnologías actuales.
 
-## Tecnologías
-
-- React
-- JavaScript
-- Tailwind CSS
-- HTML5
-- CSS3
-- APIs REST
-
 ## Proyectos
 
-### TallaJusta AI
+### Aplicación web interactiva: TallaJusta AI
+Desarrollo de una aplicación web que permite recomendar tallas de vestidos mediante el registro de medidas corporales y su comparación con las tablas de tallas específicas de cada prenda.
 
-Aplicación web desarrollada con React y Tailwind CSS, orientada a recomendar tallas de ropa a partir de las medidas corporales del usuario.
-
-**Tecnologías:** React, Vite, JavaScript y Tailwind CSS.
+**Tecnologías:** React, JavaScript, Vite, Tailwind CSS, HTML5, JSON, Responsive Design
